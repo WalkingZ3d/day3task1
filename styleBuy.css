@@ -11,7 +11,6 @@ h1 {
 body {
     font-family: 'Italiana', serif;
     font-size: 25px;
-    font-weight: bold;
     background-color: #f7d786;
 }
 
@@ -47,11 +46,13 @@ td a:hover {
     color: black;
 }
 
+
+/* 
 .buttonHome {
     width: 20% !important;
     margin-left: 500px !important;
     border-radius: 25px;
-}
+} */
 
 button a {
     color: black;
@@ -60,4 +61,9 @@ button a {
 .buttonHome:hover {
     background-color: white;
     color: black;
+}
+
+.btnContainer {
+    width: 100%;
+    text-align: center;
 }
